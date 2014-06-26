@@ -5,6 +5,7 @@ Hello. This is a simple app that allows for advanced searching of Twitter. Much 
 Things you may need to know:
 
 * Ruby version -- 2.1.1
+* Rails -- 4.1.1
 * Bower -- this application utilises Bower to help with dependency issues. Angular, Bootstrap, Underscore and Angular-UI/Angular-Bootstrap are all installed via a Bower dependencies. I hope this makes things easier for you!
 
 * API - In order for you to use this, a Twitter API Key and Secret are needed. You will have to register with Twitter to recieve these. To note, this used Twitter authentication to allow authenticated API calls (once you get your own API keys, everything is already set up for you!). 
@@ -26,7 +27,7 @@ CORE REQUIREMENTS
 * CSS & Styling: The styling utilizes Bootstrap and angular as well as angular-ui.
 * AJAX: AJAX is used for ev-er-y-thang.
 * Advanced Rails: My first project utilised both advances search and file upload. I focused on utilising angular and implimenting my own search features as advanced work for this project.
-* Ruby Gems: See README for Gems used.
+* Ruby Gems: The usual + twitter, onmiAuth-twitter & geocoder
 * External APIs: This app uses the Twitter API.
-* Heroku: See README above for heroku site.
+* Heroku: https://tweeterlistener.herokuapp.com
 * Documentation README.md: self.README.
