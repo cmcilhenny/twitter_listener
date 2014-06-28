@@ -3,7 +3,8 @@ class User < ActiveRecord::Base
   has_many :searches
 
   validates :uid, :token, :name, presence: true
-  validates :email, uniqueness: {case_sensitive: false}
+  # remove until email can be implimented.
+  # validates :email, uniqueness: {case_sensitive: false}
 
 # for twitter log in
   def self.from_omniauth(auth)
